@@ -203,6 +203,33 @@ header .buttons .button a{
     margin-top: 32px;
     width: 498px;
 }
+#event-part .img-part{
+    position: relative;
+}
 #event-part .img-part img{
     width: 100%;
+}
+#event-part .img-part .counter .mycounter{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 0, 0, 0.35);
+    border-bottom-left-radius: 17px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+#event-part .img-part .counter .mycounter span{
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 26px;
 }

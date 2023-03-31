@@ -8,3 +8,8 @@ $('.slider').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
   });
+
+  // counter//
+  $(function(){
+    loopcounter('myCountdown');
+  });
