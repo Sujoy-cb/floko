@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none !important;
+}
+ul,ol{
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+
+
+
+/* header part start */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header .header-inner{     
+    padding: 25px 0;
+}
+header .nav-items{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header .nav-items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav-items ul li{
+    color: #fff;
+    padding: 0 25px;
+    /* cursor: pointer; */
+}
+
+header .nav-items ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+header .nav-items ul li a span{
+    display: inline-block;
+    transition: .4s;
+}
+header .nav-items ul li a:hover span{
+    transform: rotate(180deg);
+}
+header .buttons{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header .language{
+    display: inline-block;
+}
+header .language select{
+    color: #fff;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+header .language select option{
+    color: #000;
+}
+
+header .buttons .button a{
+    display: inline-block;
+    background: #2C2C2B;
+    color: #fff;
+    padding: 10px 24px;
+    border: 1px solid #2C2C2B;
+    border-radius: 23px;
+    margin-left: 28px;
+}
+
+/* banner part start */
+#banner-part{
+    background: url(../assets/images/banner-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+}
+#banner-part h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 120px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+}
+#banner-part h1 .f-text{
+    display: block;
+}
+#banner-part .banner{
+    position: relative;
+}
+#banner-part .banner .bn1{
+    position: absolute;
+    top: 90px;
+    left: 175px;
+    z-index: 0;
+}
+#banner-part .banner .bn2{
+    position: absolute;
+    top: 85px;
+    right: 130px;
+}
+#banner-part .banner p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    width: 570px;
+    margin: auto;
+    margin-top: 20px;
+}
+#banner-part .banner p .star{
+    color: #F9DF08;
+}
+#banner-part .banner .banner-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+#banner-part .banner .banner-btn a{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    line-height: 28px;
+    background: #AFD7B3;
+    border: 1px solid #AFD7B3;
+    border-radius: 30px;
+    padding: 15px 35px;
+}
+#banner-part .banner .banner-btn a:last-child{
+    background: #fff;
+    margin-left: 22px;
+}
+
+/* banner down part */
+#slider-part{
+    background: #2B2B2B;
+    border: 1px solid #fff;
+    border-left: 0;
+    border-right: 0;
+}
+#slider-part .slider-items{
+    width: 340px !important;
+    height: 0 !important;
+    padding: 20px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 42px;
+    display: flex;
+}
+#slider-part .slider-items span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
